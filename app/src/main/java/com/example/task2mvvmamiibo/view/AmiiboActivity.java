@@ -11,8 +11,8 @@ import java.util.Observer;
 
 
 public class AmiiboActivity extends AppCompatActivity implements Observer {
-     AmiiboViewModel amiiboViewModel;
-     ActivityAmiiboBinding binding;
+    private AmiiboViewModel amiiboViewModel;
+    private ActivityAmiiboBinding binding;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
