@@ -20,7 +20,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                //start MainActivity after 2 second
+                //start MainActivity after 3 second
                 startActivity(new Intent(SplashActivity.this, AmiiboActivity.class));
                 finish();
             }
